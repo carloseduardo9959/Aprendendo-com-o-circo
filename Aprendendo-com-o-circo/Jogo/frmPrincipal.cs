@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Jogo
 {
-    public partial class Form1 : Form
+    public partial class frmPrincipal : MetroFramework.Forms.MetroForm
     {
-        public Form1()
+        public frmPrincipal()
         {
             InitializeComponent();
         }
