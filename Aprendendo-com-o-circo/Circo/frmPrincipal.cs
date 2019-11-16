@@ -14,7 +14,7 @@ namespace Circo
     {
         Jogador p = new Jogador();
         frmNv1 nv1 = new frmNv1();
-        
+
         public frmPrincipal()
         {
             InitializeComponent();
@@ -24,6 +24,21 @@ namespace Circo
         {
             p.Player = txtNome.Text;
             nv1.ShowDialog();
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void txtNome_MouseClick(object sender, MouseEventArgs e)
+        {
+            txtNome.Text = null;
+        }
+
+        private void cmdSair_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

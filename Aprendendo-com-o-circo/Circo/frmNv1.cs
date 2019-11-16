@@ -12,6 +12,8 @@ namespace Circo
 {
     public partial class frmNv1 : Form
     {
+        frmParabensnv1 pra = new frmParabensnv1();
+        frmTenteNovamente tnt = new frmTenteNovamente();
         public void RadImage()
         {
             Random img = new Random();
@@ -43,6 +45,32 @@ namespace Circo
         private void frmNv1_Load(object sender, EventArgs e)
         {
             RadImage();
+        }
+
+        private void cmdPoucas_Click(object sender, EventArgs e)
+        {
+            int R = int.Parse(txtTeste.Text);
+            if (R == 0)
+            {
+                pra.ShowDialog();
+            }
+            else
+            {
+                tnt.ShowDialog();
+            }
+        }
+
+        private void cmdMuitas_Click(object sender, EventArgs e)
+        {
+            int R = int.Parse(txtTeste.Text);
+            if (R == 1)
+            {
+                pra.ShowDialog();
+            }
+            else
+            {
+                tnt.ShowDialog();
+            }
         }
     }
 }

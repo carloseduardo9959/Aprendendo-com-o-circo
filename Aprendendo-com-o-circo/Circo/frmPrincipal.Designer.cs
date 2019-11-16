@@ -28,32 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.cmdEntrar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cmdSair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Circo.Properties.Resources.profile;
-            this.pictureBox1.Location = new System.Drawing.Point(259, 53);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(172, 190);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(193, 307);
+            this.txtNome.Location = new System.Drawing.Point(124, 295);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(310, 22);
-            this.txtNome.TabIndex = 1;
+            this.txtNome.TabIndex = 3;
+            this.txtNome.Text = "Informe o nome do jogador...";
+            this.txtNome.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtNome_MouseClick);
             // 
             // cmdEntrar
             // 
-            this.cmdEntrar.Location = new System.Drawing.Point(276, 347);
+            this.cmdEntrar.Location = new System.Drawing.Point(124, 323);
             this.cmdEntrar.Name = "cmdEntrar";
             this.cmdEntrar.Size = new System.Drawing.Size(132, 49);
             this.cmdEntrar.TabIndex = 2;
@@ -61,16 +54,41 @@
             this.cmdEntrar.UseVisualStyleBackColor = true;
             this.cmdEntrar.Click += new System.EventHandler(this.cmdEntrar_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Circo.Properties.Resources.profile;
+            this.pictureBox1.Location = new System.Drawing.Point(190, 41);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(172, 190);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // cmdSair
+            // 
+            this.cmdSair.Location = new System.Drawing.Point(302, 323);
+            this.cmdSair.Name = "cmdSair";
+            this.cmdSair.Size = new System.Drawing.Size(132, 49);
+            this.cmdSair.TabIndex = 4;
+            this.cmdSair.Text = "Sair";
+            this.cmdSair.UseVisualStyleBackColor = true;
+            this.cmdSair.Click += new System.EventHandler(this.cmdSair_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(726, 593);
+            this.BackgroundImage = global::Circo.Properties.Resources.bg;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(583, 433);
+            this.Controls.Add(this.cmdSair);
             this.Controls.Add(this.cmdEntrar);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "frmPrincipal";
-            this.Text = "Form1";
+            this.Text = "Aprendendo com o Circo";
+            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -82,6 +100,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Button cmdEntrar;
+        private System.Windows.Forms.Button cmdSair;
     }
 }
 
