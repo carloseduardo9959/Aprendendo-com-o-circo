@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jogo", "Jogo\Jogo.csproj", "{F701AB13-BB54-424F-9B3A-5E17D98CDAA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circo", "Circo\Circo.csproj", "{A9D7E5FC-4B52-416E-82ED-06FE82A44ED6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F701AB13-BB54-424F-9B3A-5E17D98CDAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F701AB13-BB54-424F-9B3A-5E17D98CDAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F701AB13-BB54-424F-9B3A-5E17D98CDAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F701AB13-BB54-424F-9B3A-5E17D98CDAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D7E5FC-4B52-416E-82ED-06FE82A44ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D7E5FC-4B52-416E-82ED-06FE82A44ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D7E5FC-4B52-416E-82ED-06FE82A44ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D7E5FC-4B52-416E-82ED-06FE82A44ED6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
