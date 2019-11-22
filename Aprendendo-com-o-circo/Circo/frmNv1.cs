@@ -39,7 +39,7 @@ namespace Circo
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
 
         private void frmNv1_Load(object sender, EventArgs e)
@@ -52,6 +52,7 @@ namespace Circo
             int R = int.Parse(txtTeste.Text);
             if (R == 0)
             {
+                this.Hide();
                 pra.ShowDialog();
             }
             else
@@ -65,6 +66,7 @@ namespace Circo
             int R = int.Parse(txtTeste.Text);
             if (R == 1)
             {
+                this.Hide();
                 pra.ShowDialog();
             }
             else

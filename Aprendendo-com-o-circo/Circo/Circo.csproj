@@ -46,6 +46,133 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animais.cs" />
+    <Compile Include="frmFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinal.Designer.cs">
+      <DependentUpon>frmFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinalnv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinalnv2.Designer.cs">
+      <DependentUpon>frmFinalnv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinalnv3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinalnv3.Designer.cs">
+      <DependentUpon>frmFinalnv3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinalnv4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinalnv4.Designer.cs">
+      <DependentUpon>frmFinalnv4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinalnv5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinalnv5.Designer.cs">
+      <DependentUpon>frmFinalnv5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinalnv6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinalnv6.Designer.cs">
+      <DependentUpon>frmFinalnv6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinalnv7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinalnv7.Designer.cs">
+      <DependentUpon>frmFinalnv7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel3.Designer.cs">
+      <DependentUpon>frmNivel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel4-1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel4-1.Designer.cs">
+      <DependentUpon>frmNivel4-1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel4-2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel4-2.Designer.cs">
+      <DependentUpon>frmNivel4-2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel4-3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel4-3.Designer.cs">
+      <DependentUpon>frmNivel4-3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel4.Designer.cs">
+      <DependentUpon>frmNivel4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel5-1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel5-1.Designer.cs">
+      <DependentUpon>frmNivel5-1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel5-2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel5-2.Designer.cs">
+      <DependentUpon>frmNivel5-2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel5-3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel5-3.Designer.cs">
+      <DependentUpon>frmNivel5-3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel5-4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel5-4.Designer.cs">
+      <DependentUpon>frmNivel5-4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel5-5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel5-5.Designer.cs">
+      <DependentUpon>frmNivel5-5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel5.Designer.cs">
+      <DependentUpon>frmNivel5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel6.Designer.cs">
+      <DependentUpon>frmNivel6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel7.Designer.cs">
+      <DependentUpon>frmNivel7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel8.Designer.cs">
+      <DependentUpon>frmNivel8.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNv1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,8 +198,77 @@
       <DependentUpon>frmTenteNovamente.cs</DependentUpon>
     </Compile>
     <Compile Include="Jogador.cs" />
+    <Compile Include="frmNivel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNivel2.Designer.cs">
+      <DependentUpon>frmNivel2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmFinal.resx">
+      <DependentUpon>frmFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinalnv2.resx">
+      <DependentUpon>frmFinalnv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinalnv3.resx">
+      <DependentUpon>frmFinalnv3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinalnv4.resx">
+      <DependentUpon>frmFinalnv4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinalnv5.resx">
+      <DependentUpon>frmFinalnv5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinalnv6.resx">
+      <DependentUpon>frmFinalnv6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinalnv7.resx">
+      <DependentUpon>frmFinalnv7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel3.resx">
+      <DependentUpon>frmNivel3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel4-1.resx">
+      <DependentUpon>frmNivel4-1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel4-2.resx">
+      <DependentUpon>frmNivel4-2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel4-3.resx">
+      <DependentUpon>frmNivel4-3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel4.resx">
+      <DependentUpon>frmNivel4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel5-1.resx">
+      <DependentUpon>frmNivel5-1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel5-2.resx">
+      <DependentUpon>frmNivel5-2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel5-3.resx">
+      <DependentUpon>frmNivel5-3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel5-4.resx">
+      <DependentUpon>frmNivel5-4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel5-5.resx">
+      <DependentUpon>frmNivel5-5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel5.resx">
+      <DependentUpon>frmNivel5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel6.resx">
+      <DependentUpon>frmNivel6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel7.resx">
+      <DependentUpon>frmNivel7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel8.resx">
+      <DependentUpon>frmNivel8.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNv1.resx">
       <DependentUpon>frmNv1.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +280,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTenteNovamente.resx">
       <DependentUpon>frmTenteNovamente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNivel2.resx">
+      <DependentUpon>frmNivel2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -131,6 +330,147 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elefante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Girafa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leão.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Macaco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Passarinho2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tartaruga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalnv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cachorro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cobra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coelho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elefante1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leão1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel 4-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel 4-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel 4-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cachorro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coelho1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elefante2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cachorro2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel5_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel5_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel5_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel5_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circulo Roxo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circulo Vermelho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quadrado Amarelo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triangulo Azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triangulo Laranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triangulo Verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bexiga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bexiga-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bexiga-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bexiga-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bexiga-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bexiga-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bexiga-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel 8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel 7.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

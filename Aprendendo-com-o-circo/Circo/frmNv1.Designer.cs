@@ -40,9 +40,10 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Circo.Properties.Resources.close1;
-            this.pictureBox1.Location = new System.Drawing.Point(1447, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(1173, 11);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(60, 60);
+            this.pictureBox1.Size = new System.Drawing.Size(45, 49);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -51,9 +52,10 @@
             // txtTeste
             // 
             this.txtTeste.Enabled = false;
-            this.txtTeste.Location = new System.Drawing.Point(12, 580);
+            this.txtTeste.Location = new System.Drawing.Point(9, 471);
+            this.txtTeste.Margin = new System.Windows.Forms.Padding(2);
             this.txtTeste.Name = "txtTeste";
-            this.txtTeste.Size = new System.Drawing.Size(21, 22);
+            this.txtTeste.Size = new System.Drawing.Size(17, 20);
             this.txtTeste.TabIndex = 1;
             // 
             // cmdPoucas
@@ -63,9 +65,10 @@
             this.cmdPoucas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cmdPoucas.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdPoucas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.cmdPoucas.Location = new System.Drawing.Point(586, 535);
+            this.cmdPoucas.Location = new System.Drawing.Point(476, 471);
+            this.cmdPoucas.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.cmdPoucas.Name = "cmdPoucas";
-            this.cmdPoucas.Size = new System.Drawing.Size(174, 52);
+            this.cmdPoucas.Size = new System.Drawing.Size(139, 39);
             this.cmdPoucas.TabIndex = 4;
             this.cmdPoucas.Text = "Poucas";
             this.cmdPoucas.Click += new System.EventHandler(this.cmdPoucas_Click);
@@ -77,26 +80,28 @@
             this.cmdMuitas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cmdMuitas.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdMuitas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.cmdMuitas.Location = new System.Drawing.Point(915, 537);
+            this.cmdMuitas.Location = new System.Drawing.Point(748, 471);
+            this.cmdMuitas.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.cmdMuitas.Name = "cmdMuitas";
-            this.cmdMuitas.Size = new System.Drawing.Size(158, 52);
+            this.cmdMuitas.Size = new System.Drawing.Size(126, 39);
             this.cmdMuitas.TabIndex = 5;
             this.cmdMuitas.Text = "Muitas";
             this.cmdMuitas.Click += new System.EventHandler(this.cmdMuitas_Click);
             // 
             // frmNv1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Circo.Properties.Resources.Nivel1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1518, 603);
+            this.ClientSize = new System.Drawing.Size(1229, 520);
             this.Controls.Add(this.cmdMuitas);
             this.Controls.Add(this.cmdPoucas);
             this.Controls.Add(this.txtTeste);
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmNv1";
             this.Text = "Aprendendo com o Circo";
             this.Load += new System.EventHandler(this.frmNv1_Load);

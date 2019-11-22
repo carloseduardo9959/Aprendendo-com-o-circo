@@ -118,28 +118,169 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Nivel1-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nivel1-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Circulo Vermelho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Circulo Vermelho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="close1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Elefante2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elefante2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="finalnv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\finalnv1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Leão" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leão.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cachorro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cachorro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bexiga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bexiga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leão1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leão1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bexiga-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bexiga-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel5_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel5_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cobra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cobra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elefante1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elefante1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Passarinho2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Passarinho2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bexiga-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bexiga-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel5_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel5_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bexiga-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bexiga-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tartaruga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tartaruga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cachorro2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cachorro2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Girafa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Girafa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel5_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel5_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel 4-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel 4-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="final" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\final.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel5_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel5_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Macaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Macaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel 4-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel 4-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bexiga-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bexiga-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coelho1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coelho1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bexiga-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bexiga-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Circulo Roxo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Circulo Roxo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coelho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coelho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finalnv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finalnv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Tente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quadrado Amarelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quadrado Amarelo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Triangulo Verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Triangulo Verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cachorro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cachorro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finalnv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finalnv1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel1-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel1-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elefante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elefante.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bexiga-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bexiga-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel 4-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel 4-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Triangulo Azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Triangulo Azul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Nivel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nivel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Triangulo Laranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Triangulo Laranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nivel 7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nivel 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -8,7 +8,8 @@ namespace Circo
 {
     class Jogador
     {
-        private string player;
+        string player;
+
         public string Player { get => player; set => player = value; }
     }
 }

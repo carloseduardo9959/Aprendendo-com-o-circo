@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.cmdClose = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.cmdContinuar = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.cmdClose)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,17 +46,19 @@
             this.cmdClose.TabStop = false;
             this.cmdClose.Click += new System.EventHandler(this.cmdClose_Click);
             // 
-            // label1
+            // cmdContinuar
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(675, 506);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(225, 55);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Continue";
+            this.cmdContinuar.AutoSize = true;
+            this.cmdContinuar.BackColor = System.Drawing.Color.Transparent;
+            this.cmdContinuar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cmdContinuar.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdContinuar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.cmdContinuar.Location = new System.Drawing.Point(675, 506);
+            this.cmdContinuar.Name = "cmdContinuar";
+            this.cmdContinuar.Size = new System.Drawing.Size(225, 55);
+            this.cmdContinuar.TabIndex = 1;
+            this.cmdContinuar.Text = "Continue";
+            this.cmdContinuar.Click += new System.EventHandler(this.cmdContinuar_Click);
             // 
             // frmParabensnv1
             // 
@@ -65,7 +67,7 @@
             this.BackgroundImage = global::Circo.Properties.Resources.finalnv1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1518, 603);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.cmdContinuar);
             this.Controls.Add(this.cmdClose);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -80,6 +82,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox cmdClose;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label cmdContinuar;
     }
 }
